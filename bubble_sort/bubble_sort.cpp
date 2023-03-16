@@ -50,6 +50,18 @@ void unsorted() {
 	}
 	cout << endl;
 }
+
+void display() {			// Procedur untuk menampilkan hasil
+	cout << endl;
+	cout << "==================================" << endl;			// Output ke layar
+	cout << "Element Array yang telah tersusun" << endl;		// Output ke layat
+	cout << "==================================" << endl;			// Output ke layar
+	for (int j = 0; j < n; j++) {			// Looping dengan j dimulai dari 0 hingga n-1
+		cout << a[j] << endl;				// Output ke layar
+	}
+	cout << endl;							// Output baris kosong
+}
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
