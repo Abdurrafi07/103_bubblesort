@@ -4,6 +4,9 @@
 #include <iostream>
 using namespace std;
 
+int a[20];					// Deklarasi array a dengan ukuran 20
+
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
