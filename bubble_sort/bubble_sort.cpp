@@ -62,6 +62,14 @@ void display() {			// Procedur untuk menampilkan hasil
 	cout << endl;							// Output baris kosong
 }
 
+int main() {
+	input();		// Memanggil procedur read()
+	unsorted();		// Memanggil procedur unsorted() dari
+	bubbleSortArray();		// Memanggil procedur bubbleSortArray()
+	display();		// Memanggil procedur display()
+
+	return 0;
+}
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
